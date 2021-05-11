@@ -19,8 +19,8 @@ export default class Header extends Component {
     }
 
     componentWillUnmount() {
-        window.removeEventListener("resize", () => this.debouncedResize());
         clearTimeout(this.timer);
+        window.removeEventListener("resize", () => this.debouncedResize());
     }
 
     debouncedResize() {
