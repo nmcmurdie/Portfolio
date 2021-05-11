@@ -1,10 +1,11 @@
 .section {
+    --header-stub-height: 20px;
+
     position: relative;
     display: inline-block;
     min-height: 100px;
     width: 100%;
-
-    --header-stub-height: 20px;
+    color: var(--text-secondary);
 }
 .section::before {
     content: "";
@@ -16,9 +17,24 @@
     border-top-right-radius: var(--header-stub-height);
     border-top-left-radius: var(--header-stub-height);
 }
+
+.section-title {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 .section.title {
     margin-top: var(--header-height);
+    padding-top: 150px;
     background-color: var(--background-primary);
+}
+.section-title.title {
+    font-size: 2.5rem;
+    color: var(--text-tertiary);
+    text-shadow: 0 .1em .2em rgba(0, 0, 0, .15);
 }
 .section.about {
     background-color: var(--background-secondary);

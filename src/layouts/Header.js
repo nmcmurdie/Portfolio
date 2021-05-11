@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Shape from './Shape'
+import Shape from '../components/Shape'
 import './Header.css'
 
 const TYPES = ['x', 'circle', 'square'];
@@ -20,6 +20,7 @@ export default class Header extends Component {
 
     componentWillUnmount() {
         window.removeEventListener("resize", () => this.debouncedResize());
+        clearTimeout(this.timer);
     }
 
     debouncedResize() {
@@ -28,15 +29,15 @@ export default class Header extends Component {
                 this.screenWidth = window.innerWidth;
                 this.setState(() => this.generateShapes())
             }
-        });
+        }, RESIZE_UPDATE_MS);
     }
 
-    debounce(fn) {
+    debounce(fn, timeout) {
         clearTimeout(this.timer);
         this.timer = setTimeout(function() {
             this.timer = null;
             fn.apply(this, arguments);
-        }, RESIZE_UPDATE_MS);
+        }, timeout);
     }
 
     generateShapes() {

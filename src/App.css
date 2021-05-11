@@ -8,6 +8,8 @@
   --accent-secondary: #303F9F;
 
   --text-primary: #3c3c3c;
+  --text-secondary: #5c5c5c;
+  --text-tertiary: #7c7c7c;
   --text-alternate: #fff;
 
   --header-height: 200px;
@@ -16,4 +18,5 @@
 html {
   background-color: var(--accent-primary);
   color: var(--text-primary);
+  font-family: 'Roboto', arial, sans-serif;
 }

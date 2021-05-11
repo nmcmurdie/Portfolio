@@ -6,7 +6,7 @@ function Section({ children, type, title }) {
         <div className={`section ${type}`}>
             {
                 title && <>
-                    <span className="section-title">{title}</span>
+                    <span className={`section-title ${type}`}>{title}</span>
                     <br />
                 </>
             }
