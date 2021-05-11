@@ -16,4 +16,5 @@
 }
 .section.footer {
     background-color: var(--background-alternate);
+    color: var(--text-alternate);
 }

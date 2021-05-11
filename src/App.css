@@ -3,12 +3,17 @@
   --background-secondary: #efefef;
   --background-tertiary: #dddddd;
   --background-alternate: #2c2c2c;
+
   --accent-primary: #3f51b5;
   --accent-secondary: #303F9F;
+
+  --text-primary: #3c3c3c;
+  --text-alternate: #fff;
 
   --header-height: 200px;
 }
 
 html {
   background-color: var(--accent-primary);
+  color: var(--text-primary);
 }
