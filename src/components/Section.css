@@ -3,6 +3,18 @@
     display: inline-block;
     min-height: 100px;
     width: 100%;
+
+    --header-stub-height: 20px;
+}
+.section::before {
+    content: "";
+    position: absolute;
+    top: calc(-1 * var(--header-stub-height));
+    background: inherit;
+    width: 100%;
+    height: var(--header-stub-height);
+    border-top-right-radius: var(--header-stub-height);
+    border-top-left-radius: var(--header-stub-height);
 }
 .section.title {
     margin-top: var(--header-height);
