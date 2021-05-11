@@ -6,9 +6,10 @@ function App() {
   return (
     <>
       <Header />
-      <Section>
-        Children
-      </Section>
+      <Section type="title" title="Nick McMurdie"></Section>
+      <Section type="about" title="About Me"></Section>
+      <Section type="projects" title="Projects"></Section>
+      <Section type="footer" title="Footer"></Section>
     </>
   );
 }

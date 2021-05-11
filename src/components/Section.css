@@ -1,0 +1,19 @@
+.section {
+    position: relative;
+    display: inline-block;
+    min-height: 100px;
+    width: 100%;
+}
+.section.title {
+    margin-top: var(--header-height);
+    background-color: var(--background-primary);
+}
+.section.about {
+    background-color: var(--background-secondary);
+}
+.section.projects {
+    background-color: var(--background-tertiary);
+}
+.section.footer {
+    background-color: var(--background-alternate);
+}

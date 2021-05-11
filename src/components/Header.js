@@ -3,7 +3,7 @@ import Shape from './Shape'
 import './Header.css'
 
 const TYPES = ['x', 'circle', 'square'];
-const RESIZE_UPDATE_MS = 200;
+const RESIZE_UPDATE_MS = 300;
 
 export default class Header extends Component {
     constructor() {
@@ -26,7 +26,7 @@ export default class Header extends Component {
         this.debounce(() => {
             if (window.innerWidth !== this.screenWidth) {
                 this.screenWidth = window.innerWidth;
-                this.updateShapes();
+                this.setState(() => this.generateShapes())
             }
         });
     }
@@ -34,6 +34,7 @@ export default class Header extends Component {
     debounce(fn) {
         clearTimeout(this.timer);
         this.timer = setTimeout(function() {
+            this.timer = null;
             fn.apply(this, arguments);
         }, RESIZE_UPDATE_MS);
     }
@@ -56,11 +57,9 @@ export default class Header extends Component {
         return { shapes: generatedShapes};
     }
 
-    updateShapes = () => this.setState(() => this.generateShapes());
-
     render() {
         return (
-            <div className="page-header" onClick={() => this.updateShapes()}>
+            <div className="page-header">
                 {
                     this.state.shapes.map(item => (
                         <Shape type={item.type} key={item.key} position={item.position} />

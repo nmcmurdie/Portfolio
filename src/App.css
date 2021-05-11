@@ -1,8 +1,14 @@
 :root {
-  --background-primary: #f1f1f1;
+  --background-primary: #fff;
+  --background-secondary: #efefef;
+  --background-tertiary: #dddddd;
+  --background-alternate: #2c2c2c;
   --accent-primary: #3f51b5;
   --accent-secondary: #303F9F;
+
+  --header-height: 200px;
 }
+
 html {
   background-color: var(--accent-primary);
 }
