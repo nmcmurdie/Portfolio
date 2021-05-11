@@ -1,0 +1,12 @@
+.profile {
+    --profile-size: 200px;
+
+    position: absolute;
+    width: var(--profile-size);
+    border-radius: 50%;
+    border: 10px solid var(--background-secondary);
+    top: calc(-1 * var(--header-stub-height));
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .2);
+}
