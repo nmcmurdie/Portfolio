@@ -6,7 +6,7 @@ function SquareButton({ icon, iconURL, alt, link }) {
         <form action={link}>
             <button title={alt} className={`button button-square button-${alt.toLowerCase()}`}>
                 {icon && <span className="material-icons-outlined">{icon}</span>}
-                {iconURL && <img alt={alt} src={`${process.env.PUBLIC_URL}/img/${iconURL}`} />}
+                {iconURL && <img className="button-icon" alt={alt} src={`${process.env.PUBLIC_URL}/img/${iconURL}`} />}
             </button>
         </form>
     )
