@@ -27,4 +27,8 @@
 .button-simple {
     background-color: transparent;
     box-shadow: none !important;
+    transition: opacity .2s ease;
+}
+.button-simple:hover {
+    opacity: 0.8;
 }

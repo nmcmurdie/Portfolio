@@ -9,7 +9,9 @@ function FooterSection() {
             <div className="links-container footer-links">
                 <SquareButton iconURL="github.svg" link="https://www.github.com/nmcmurdie/portfolio" alt="Github" simple="true" />
             </div>
-            Copyright © 2021 Nicholas McMurdie
+            Made with ❤️ and React.js
+            <span className="spacer" />
+            <i>Copyright © 2021 Nicholas McMurdie</i>
         </Section>
     )
 }

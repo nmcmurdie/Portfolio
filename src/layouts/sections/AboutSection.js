@@ -32,7 +32,7 @@ function AboutSection() {
                     <span className="skill-title">Java Experience</span>
                     <br />
                     Built a genealogy web server in Java, <br />
-                    using a <span className="highlight">REST API</span> and <span className="highlight">SQLite</span> database <span className="skill-spacer" />
+                    using a <span className="highlight">REST API</span> and <span className="highlight">SQLite</span> database <span className="spacer" />
                     Developed an <span className="highlight">Android</span> app to interface with the server, <br />
                     using the <span className="highlight">Google Maps API</span> to display geo-information
                 </Skill>
@@ -50,7 +50,7 @@ function AboutSection() {
                     <br />
                     RLC Circuit Design with <span className="highlight">LTSpice</span>
                     <br />
-                    Designing circuits with <span className="highlight">SystemVerilog HDL</span><span className="skill-spacer" />
+                    Designing circuits with <span className="highlight">SystemVerilog HDL</span><span className="spacer" />
                     Good Listener <span className="highlight">|</span> Detail Oriented <span className="highlight">|</span> Teamwork
                 </Skill>
             </div>
