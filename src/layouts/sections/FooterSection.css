@@ -1,0 +1,8 @@
+.section.footer {
+    background-color: var(--background-alternate);
+    text-align: center;
+    font-size: .9em;
+}
+.footer-links {
+    margin: 0;
+}
