@@ -6,6 +6,7 @@
     min-height: 100px;
     width: 100%;
     color: var(--text-secondary);
+    padding-bottom: var(--header-stub-height);
 }
 .section::before {
     content: "";
@@ -24,6 +25,7 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 1.5rem;
+    margin-top: 10px;
 }
 
 .section.about {
