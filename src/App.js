@@ -3,6 +3,7 @@ import Section from './layouts/Section'
 import TitleSection from './layouts/sections/TitleSection'
 import AboutSection from './layouts/sections/AboutSection'
 import './App.css';
+import ProjectsSection from './layouts/sections/ProjectsSection';
 
 
 function App() {  
@@ -11,7 +12,7 @@ function App() {
       <Header />
       <TitleSection />
       <AboutSection />
-      <Section type="projects" title="Projects"></Section>
+      <ProjectsSection />
       <Section type="footer" title="Footer"></Section>
     </>
   );

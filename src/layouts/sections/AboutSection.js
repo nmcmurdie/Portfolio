@@ -9,9 +9,9 @@ function AboutSection() {
                 <Skill icon="school">
                     <span className="skill-title">BS in Computer Engineering</span>
                     <br />
-                    Minor in Computer Science
+                    <i>Minor in Computer Science</i>
                     <br />
-                    <i>Brigham Young University</i>
+                    Brigham Young University
                     <br />
                     Graduating in <span className="highlight">April 2023</span>
                     <br />
@@ -34,7 +34,7 @@ function AboutSection() {
                     Built a genealogy web server in Java, <br />
                     using a <span className="highlight">REST API</span> and <span className="highlight">SQLite</span> database <span className="skill-spacer" />
                     Developed an <span className="highlight">Android</span> app to interface with the server, <br />
-                    used the <span className="highlight">Google Maps API</span> to display geo-information
+                    using the <span className="highlight">Google Maps API</span> to display geo-information
                 </Skill>
                 <Skill icon="developer_board">
                     <span className="skill-title">C++ Experience</span>
@@ -44,6 +44,14 @@ function AboutSection() {
                     Constructed a <span className="highlight">Relational Database</span> using user defined statements,
                     <br />
                     and efficiently executed a user's queries on the database
+                </Skill>
+                <Skill icon="business_center">
+                    <span className="skill-title">Other Skills</span>
+                    <br />
+                    RLC Circuit Design with <span className="highlight">LTSpice</span>
+                    <br />
+                    Designing circuits with <span className="highlight">SystemVerilog HDL</span><span className="skill-spacer" />
+                    Good Listener <span className="highlight">|</span> Detail Oriented <span className="highlight">|</span> Teamwork
                 </Skill>
             </div>
         </Section> 
