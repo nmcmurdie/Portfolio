@@ -4,12 +4,15 @@
     background-color: var(--background-primary);
 }
 .section-title.title {
-    font-size: 2.5rem;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    display: block;
     color: var(--text-tertiary);
-    text-shadow: 0 .1em .2em rgba(0, 0, 0, .1);
+    text-shadow: 0 .05em .1em rgba(0, 0, 0, .2);
 }
 .links-container {
     display: flex;
     justify-content: center;
-    margin: 30px 0 100px 0;
+    margin: 0 0 90px 0;
 }

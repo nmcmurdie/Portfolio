@@ -1,7 +1,7 @@
 import React from 'react'
-import Section from './Section'
-import Profile from '../components/Profile'
-import SquareButton from '../components/SquareButton'
+import Section from '../Section'
+import Profile from '../../components/Profile'
+import SquareButton from '../../components/SquareButton'
 import './TitleSection.css'
 
 function TitleSection() {

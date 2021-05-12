@@ -3,15 +3,18 @@
 
     position: relative;
     display: inline-block;
-    min-height: 100px;
+    min-height: 50px;
     width: 100%;
     color: var(--text-secondary);
-    padding-bottom: var(--header-stub-height);
+    padding: 10px;
+    box-sizing: border-box;
+    padding-bottom: calc(2 * var(--header-stub-height));
 }
 .section::before {
     content: "";
     position: absolute;
     top: calc(-1 * var(--header-stub-height));
+    left: 0;
     background: inherit;
     width: 100%;
     height: var(--header-stub-height);
@@ -21,11 +24,10 @@
 
 .section-title {
     display: flex;
-    justify-content: center;
+    justify-content: center !important;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
-    font-size: 1.5rem;
-    margin-top: 10px;
+    font-size: 1.6rem;
 }
 
 .section.about {
