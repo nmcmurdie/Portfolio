@@ -36,7 +36,3 @@
 .section.projects {
     background-color: var(--background-tertiary);
 }
-.section.footer {
-    background-color: var(--background-alternate);
-    color: var(--text-alternate);
-}
