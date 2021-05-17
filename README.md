@@ -1,6 +1,6 @@
 # Online Portfolio
-<i>See <a href="https://sweepkey.net">https://sweepkey.net</a></i>
+<i>UPDATE: See updated portfolio written with Gatsby.js <a href="https://github.com/nmcmurdie/portfolio-gatsby">Here</a></i>
 <br>
-An updated portfolio website written in React.js and hosted with Google Firebase
+An updated portfolio website written in React.js and (no longer) hosted with Google Firebase
 <br>
-<a href="https://sweepkey.net"><img src="https://sweepkey.net/img/projects.png" width="200" /></a>
+<a href="https://sweepkey.net"><img src="https://github.com/nmcmurdie/Portfolio/blob/master/public/img/projects.png" width="200" /></a>
